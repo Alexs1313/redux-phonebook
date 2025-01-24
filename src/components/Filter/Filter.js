@@ -10,10 +10,10 @@ const Filter = () => {
   };
 
   return (
-    <div>
+    <>
       <p>Find contacts by name</p>
       <input type="text" name="name" value={filter} onChange={onChangeFilter} />
-    </div>
+    </>
   );
 };
 
